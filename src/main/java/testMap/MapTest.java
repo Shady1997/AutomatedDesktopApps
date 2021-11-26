@@ -13,6 +13,8 @@ public class MapTest {
 
 	public static void main(String[] args) throws MalformedURLException {
 		// TODO get app name(get-startApps&&developermode=on&&https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md&&start winappdriver server && start inspect)
+		//C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe
+		//C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\inspect.exe
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("app", "Microsoft.WindowsMaps_8wekyb3d8bbwe!App");
 		capabilities.setCapability("platformName", "Windows");
